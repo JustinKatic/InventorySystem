@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dd4c140951880249aa5c681c598dc6b, type: 3}
+  m_Name: PlayerEquipment
+  m_EditorClassIdentifier: 
+  type: {fileID: 11400000, guid: d890e8e06cb7eb34690cffd05daf9bbf, type: 2}
+  savePath: /PlayerEquipment
+  database: {fileID: 11400000, guid: cb2e2d72b2d16b349b891afd145b684f, type: 2}
+  inventory:
+    Slots:
+    - _slotName: Helmet
+      AllowedItems:
+      - {fileID: 11400000, guid: 5a6dd0a16ae8ac94683cf4fc58dd645d, type: 2}
+      item:
+        name: 
+        id: -1
+        buffs: []
+      amount: 0
+    - _slotName: Left Weapon
+      AllowedItems:
+      - {fileID: 11400000, guid: 063224d5954826d4d9b5cefe453a4c8c, type: 2}
+      item:
+        name: 
+        id: -1
+        buffs: []
+      amount: 0
+    - _slotName: Chest
+      AllowedItems:
+      - {fileID: 11400000, guid: 005b022693950044ba8635e8301b3ec7, type: 2}
+      item:
+        name: 
+        id: -1
+        buffs: []
+      amount: 0
+    - _slotName: Right Weapon
+      AllowedItems:
+      - {fileID: 11400000, guid: 063224d5954826d4d9b5cefe453a4c8c, type: 2}
+      - {fileID: 11400000, guid: 356aec508832a6a42b7d5f71a3574ee3, type: 2}
+      item:
+        name: sword
+        id: -1
+        buffs: []
+      amount: 0
+    - _slotName: Boots
+      AllowedItems:
+      - {fileID: 11400000, guid: e6013cda149b335438e6e657a68c0e3f, type: 2}
+      item:
+        name: 
+        id: -1
+        buffs: []
+      amount: 0

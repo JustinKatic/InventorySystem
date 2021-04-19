@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60cebdb85cfcae3439809e29849f162c, type: 3}
+  m_Name: Weapon
+  m_EditorClassIdentifier: 
+  uiDisplay: {fileID: -1764642174700005890, guid: 01437b1dc282af54a855a5b43375050d, type: 3}
+  stackable: 0
+  type: {fileID: 11400000, guid: 063224d5954826d4d9b5cefe453a4c8c, type: 2}
+  data:
+    name: 'GOD SWORD '
+    id: 7
+    buffs:
+    - attribute: {fileID: 11400000, guid: e8d7a16e6ba1f9c42bc992963635ba4d, type: 2}
+      value: 0
+      min: 20
+      max: 30
+    - attribute: {fileID: 11400000, guid: 9ce640ddc48e4644ebfda08b2b8b90c7, type: 2}
+      value: 0
+      min: 20
+      max: 30
+    - attribute: {fileID: 11400000, guid: c9a7e496db372d544a464b6dbd9861e4, type: 2}
+      value: 0
+      min: 20
+      max: 30
+    - attribute: {fileID: 11400000, guid: a01603ad15b00524dbd05a3eec6d1479, type: 2}
+      value: 0
+      min: 20
+      max: 30
+  description: 'GOD SWORD
+
+'

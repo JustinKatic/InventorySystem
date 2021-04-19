@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60cebdb85cfcae3439809e29849f162c, type: 3}
+  m_Name: Weapon 1
+  m_EditorClassIdentifier: 
+  uiDisplay: {fileID: 1727976464042475106, guid: 01437b1dc282af54a855a5b43375050d, type: 3}
+  stackable: 0
+  type: {fileID: 11400000, guid: 063224d5954826d4d9b5cefe453a4c8c, type: 2}
+  data:
+    name: 'Normal Sword '
+    id: 6
+    buffs:
+    - attribute: {fileID: 11400000, guid: a01603ad15b00524dbd05a3eec6d1479, type: 2}
+      value: 0
+      min: 20
+      max: 30
+  description: 'Normal Sword
+
+'
